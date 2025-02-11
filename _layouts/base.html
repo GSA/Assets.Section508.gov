@@ -1,24 +1,43 @@
-{% comment %}
-This is used for just about every page. It provides the border around the content.
-The home page uses wide.html layout, since it extends full width of page
-{% endcomment %}
-
 <!DOCTYPE html>
-
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training section508 Resource Repository</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css" />
+  </head>
 
-{% include meta.html %}
+  <body>
+    <!-- Simple Header -->
+    <header>
+      <h1>Training section508 Resource Repository</h1>
+      <p>
+        Your go-to place for all Training section508-related resources and
+        assets.
+      </p>
+    </header>
 
-<body>
-  {% include header.html %}
+    <!-- Main Content -->
+    <main>
+      <h2>Welcome to the Training section508 Asset Repository</h2>
+      <p>
+        This site stores all the necessary resources for the Training section508
+        project.
+      </p>
+      <hr />
 
-  {% include menu.html primary_navigation=site.primary_navigation  secondary_navigation=site.secondary_navigation %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  {% include scripts.html %}
-</body>
-
+      <h3>Available Resources:</h3>
+      {% assign docs = site.static_files | where_exp: "file", "file.path
+      contains 'training'" %} {% assign sorted_docs = docs | sort: "basename" %}
+      <ul>
+        {% for doc in sorted_docs %}
+        <li><a href="{{ doc.path | relative_url }}">{{ doc.basename }}</a></li>
+        {% endfor %}
+      </ul>
+    </main>
+    <!-- Simple Footer -->
+    <footer>
+      <p>&copy; 2025 Training section508. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
