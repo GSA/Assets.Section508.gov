@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 ruby '3.1.6'
 
-# Update Jekyll to a version compatible with Ruby 3.1
 gem "jekyll", "~> 4.3.3"
 gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
@@ -9,17 +8,15 @@ gem "webrick"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
-  gem "jekyll-redirect-from"
-  gem "jekyll-paginate-v2", "3.0.0"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-paginate-v2', "3.0.0"
+  gem 'jekyll-sitemap'
+  gem 'jekyll-seo-tag'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
-gem "html-proofer", "~> 3.18"
 
-# Force compatible ffi version
-gem "ffi", ">= 1.15.5"
+gem "html-proofer", "~> 3.18"
