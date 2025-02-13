@@ -20,3 +20,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 
 gem "html-proofer", "~> 3.18"
+gem 'kramdown-parser-gfm'
