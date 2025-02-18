@@ -1,21 +1,139 @@
----
-permalink: /
-layout: wide
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training section508 Resource Repository</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css" />
+  </head>
+  <style>
+    /* General body styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
 
-{% comment %} 
-Welcome to official Federalist Jekyll template for the U.S Web Design System 2.0
+    /* Header styles */
+    header {
+      background-color: #213066;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
 
-You'll notice that this page only makes reference to two other html files: hero.html and highlights.html
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
 
-To the edit the home page, you can edit those files directly, create new ones or add content directly to
-this page. 
+    header p {
+      margin: 5px 0;
+      font-size: 1.2em;
+    }
 
-We recommend splitting apart your site's components into their own smaller section so that its easier to 
-manage in the long term.
-{% endcomment %}
+    /* Main content area */
+    main {
+      padding: 20px;
+      text-align: center;
+    }
 
-{% include hero.html %}
-{% include tagline.html %}
-{% include highlights.html %}
+    main h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    main h3 {
+      font-size: 1.5em;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+
+    /* Link styling */
+    main a {
+      font-size: 1.2em;
+      color: #4caf50;
+      text-decoration: none;
+      padding: 10px 15px;
+      border: 2px solid #4caf50;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px 0;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    main a:hover {
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* File list styling */
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+  </style>
+
+  <body>
+    <!-- Simple Header -->
+    <header>
+      <h1>Training section508 Resource Repository</h1>
+      <p>
+        Your go-to place for all Training section508-related resources and
+        assets.
+      </p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <h2>Welcome to the Training section508 Asset Repository</h2>
+      <p>
+        This site stores all the necessary resources for the Training section508
+        project.
+      </p>
+      <hr />
+
+      <!--  <h3>Available Resources:</h3>
+      {% assign docs = site.static_files | where_exp: "file", "file.path
+      contains 'training'" %} {% assign sorted_docs = docs | sort: "basename" %} -->
+      <!--  <ul>
+        {% for doc in sorted_docs %}
+        <li><a href="{{ doc.path | relative_url }}">{{ doc.basename }}</a></li>
+        {% endfor %}
+      </ul> -->
+    </main>
+    <!-- Simple Footer -->
+    <footer>
+      <p>&copy; 2025 Training section508. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
