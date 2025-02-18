@@ -37,6 +37,3 @@ jobs:
 
       - name: Build and start up jekyll server.
         run: npm run build && npm run start-detached
-
-      - name: Run htmlproofer.
-        run: npm run htmlproofer

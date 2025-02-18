@@ -6,7 +6,7 @@
     "clean": "bundle exec jekyll clean",
     "reset": "npx rimraf .git",
     "start": "bundle exec jekyll serve",
-    "start-detached": "bundle exec jekyll serve --detach",
+    "start-detached": "bundle exec jekyll serve --detach"
   },
   "dependencies": {
     "netlify-cms": "^2.8.0",
