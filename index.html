@@ -1,139 +1,484 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Training section508 Resource Repository</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css" />
-  </head>
-  <style>
-    /* General body styles */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
+<head>
+  <base href="https://www.section508.gov/" target="_blank">
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title and meta description
+    ================================================== -->
+  <title>Page Not Found (404 Error) | Section508.gov</title>
+  <meta property="og:title" content="Section508.gov" />
+  <meta name="description" content="Information about the Section508.gov website, GSA’s Government-wide IT Accessibility Team, and guidance to Federal agencies on accessible information and communication technology (ICT)." />
+  <meta property="og:description" content="Information about the Section508.gov website, GSA’s Government-wide IT Accessibility Team, and guidance to Federal agencies on accessible information and communication technology (ICT)." />
+   
+  <meta
+    property="og:image"
+    content="/assets/images/social-media-og-image.jpg"
+  />
+  <meta
+    name="twitter:image"
+    content="/assets/images/social-media-og-image.jpg"
+  />
+  
+  <!-- endif -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@" />
+  <meta name="twitter:title" content="Section508.gov" />
+  <meta name="twitter:description" content="Information about the Section508.gov website, GSA’s Government-wide IT Accessibility Team, and guidance to Federal agencies on accessible information and communication technology (ICT)." />
 
-    /* Header styles */
-    header {
-      background-color: #213066;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+  <meta property="og:type" content="article" />
+  <link rel="canonical" href="https://www.section508.gov/404.html" />
+  <meta property="og:url" content="https://www.section508.gov/404.html" />
+  <!-- Favicons
+    ================================================== -->
+  <!-- 128x128 -->
+  <link
+    rel="shortcut icon"
+    type="image/ico"
+    href="/assets/images/favicon.ico"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    href="/assets/images/favicon.ico"
+  />
 
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="/assets/images/android-chrome-192x192.png"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/assets/images/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/assets/images/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/assets/images/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/assets/images/site.webmanifest" />
 
-    header p {
-      margin: 5px 0;
-      font-size: 1.2em;
-    }
+  <!-- CSS
+    ================================================== -->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="/assets/css/index.css?1742502785859035251"
+  />
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+  <script src="/assets/js/uswds-init.min.js?1742502785859035251"></script>
 
-    /* Main content area */
-    main {
-      padding: 20px;
-      text-align: center;
-    }
+  <!-- Custom Meta Data
+    ================================================== -->
+  <meta name="topic" content="" />
+  <meta name="sub-topic" content="" />
+  <meta name="audience" content="" />
+  <meta name="resource-type" content="" />
+  <meta name="format" content="" />
+</head>
 
-    main h2 {
-      font-size: 2em;
-      margin-bottom: 20px;
-    }
 
-    main p {
-      font-size: 1.1em;
-      margin-bottom: 20px;
-    }
+<body>
+  
 
-    main h3 {
-      font-size: 1.5em;
-      margin-top: 40px;
-      margin-bottom: 10px;
-    }
+<section aria-label="Official Government Site Banner" class="page-landing-page layout-demo ">
+  
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  
 
-    /* Link styling */
-    main a {
-      font-size: 1.2em;
-      color: #4caf50;
-      text-decoration: none;
-      padding: 10px 15px;
-      border: 2px solid #4caf50;
-      border-radius: 5px;
-      display: inline-block;
-      margin: 5px 0;
-      transition: background-color 0.3s, color 0.3s;
-    }
-
-    main a:hover {
-      background-color: #4caf50;
-      color: white;
-      text-decoration: none;
-    }
-
-    /* File list styling */
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    ul li {
-      margin: 10px 0;
-    }
-
-    /* Footer styles */
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 10px;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-
-    footer p {
-      margin: 0;
-      font-size: 0.9em;
-    }
-  </style>
-
-  <body>
-    <!-- Simple Header -->
-    <header>
-      <h1>Training section508 Resource Repository</h1>
-      <p>
-        Your go-to place for all Training section508-related resources and
-        assets.
-      </p>
+  <div
+class="usa-banner"
+aria-label="Official website of the United States government"
+>
+  <div class="usa-accordion">
+    <header class="usa-banner__header">
+      <div class="usa-banner__inner">
+        <div class="grid-col-auto">
+          <img
+            aria-hidden="true"
+            class="usa-banner__header-flag"
+            src="/assets/img/us_flag_small.png"
+            alt="U.S. flag"
+          />
+        </div>
+        <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+          <p class="usa-banner__header-text">
+            An official website of the United States government
+          </p>
+          <p class="usa-banner__header-action">Here’s how you know</p>
+        </div>
+        <button
+          type="button"
+          class="usa-accordion__button usa-banner__button"
+          aria-expanded="false"
+          aria-controls="gov-banner-default"
+        >
+          <span class="usa-banner__button-text">Here’s how you know</span>
+        </button>
+      </div>
     </header>
+    <div
+      class="usa-banner__content usa-accordion__content"
+      id="gov-banner-default" hidden=""
+    >
+      <div class="grid-row grid-gap-lg">
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-dot-gov.svg"
+            role="img"
+            alt="Dot gov"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Official websites use .gov</strong><br />A
+              <strong>.gov</strong> website belongs to an official government
+              organization in the United States.
+            </p>
+          </div>
+        </div>
+        <div class="usa-banner__guidance tablet:grid-col-6">
+          <img
+            class="usa-banner__icon usa-media-block__img"
+            src="/assets/img/icon-https.svg"
+            role="img"
+            alt="Https"
+            aria-hidden="true"
+          />
+          <div class="usa-media-block__body">
+            <p>
+              <strong>Secure .gov websites use HTTPS</strong><br />A
+              <strong>lock</strong> (
+              <span class="icon-lock"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="52"
+                  height="64"
+                  viewBox="0 0 52 64"
+                  class="usa-banner__lock-image"
+                  role="img"
+                  aria-labelledby="banner-lock-description-default"
+                  focusable="false"
+                >
+                  <title id="banner-lock-title-default">Lock</title>
+                  <desc id="banner-lock-description-default">Locked padlock icon</desc>
+                  <path
+                    fill="#000000"
+                    fill-rule="evenodd"
+                    d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"
+                  />
+                </svg> </span
+              >) or <strong>https://</strong> means you’ve safely connected to
+              the .gov website. Share sensitive information only on official,
+              secure websites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
 
-    <!-- Main Content -->
-    <main>
-      <h2>Welcome to the Training section508 Asset Repository</h2>
-      <p>
-        This site stores all the necessary resources for the Training section508
-        project.
-      </p>
-      <hr />
 
-      <!--  <h3>Available Resources:</h3>
-      {% assign docs = site.static_files | where_exp: "file", "file.path
-      contains 'training'" %} {% assign sorted_docs = docs | sort: "basename" %} -->
-      <!--  <ul>
-        {% for doc in sorted_docs %}
-        <li><a href="{{ doc.path | relative_url }}">{{ doc.basename }}</a></li>
-        {% endfor %}
-      </ul> -->
-    </main>
-    <!-- Simple Footer -->
-    <footer>
-      <p>&copy; 2025 Training section508. All rights reserved.</p>
-    </footer>
-  </body>
+
+  <button id="backtotop" title="Go to top" style="display: none">˄ Top</button>
+  <div class="usa-overlay"></div>
+</section>
+
+
+
+  
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    <div class="usa-logo" id="extended-logo">
+  <span><a href="/" onclick="return navigate(this)">
+    <img src="/assets/images/508-logo-cropped-web-altgreen.png" alt="Section508.gov Home; GSA logo with text: Section508.gov Buy. Build. Be Accessible."
+    class="logo" />
+</a></span>
+</div>
+
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+  <nav id="site-nav" role="navigation" class="usa-nav" aria-label="Primary Site Navigation">
+    <div class="usa-nav__inner">
+        <button class="usa-nav__close"><img alt="close" src="/assets/img/close.svg"></button>
+      <ul class="usa-nav__primary usa-accordion">
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Policy &amp; Management primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/manage/"><span>Policy &amp; Management</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Acquisition primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/buy-sell/"><span>Acquisition</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Content Creation primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/create/"><span>Content Creation</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Design &amp; Develop primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/develop/"><span>Design &amp; Develop</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Testing primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/test/"><span>Testing</span></a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="usa-nav__primary-item">
+          <a aria-label="Training, Tools &amp; Events primary navigation" class="usa-nav__link" onclick="return navigate(this)"
+            href="/training/"><span>Training, Tools &amp; Events</span></a>
+        </li>
+        
+        
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/blog/" class="external-link" onclick="return navigate(this)">Blogs &amp; Updates</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/tools/program-manager-listing/" class="external-link" onclick="return navigate(this)">My Agency’s 508 PM</a>
+          </li>
+          
+          <li class="usa-nav__secondary-item">
+            <a href="/content/about-us/" class="external-link" onclick="return navigate(this)">About Us</a>
+          </li>
+          
+        </ul>
+        
+
+
+  
+    <form id="search_form" class="usa-search usa-search--small" action="https://search.usa.gov/search" accept-charset="UTF-8" method="get">
+  
+    
+  
+    <input name="utf8" type="hidden" value="&#x2713;" />
+    <input name="affiliate" type="hidden" value="gsa-section508-accessibility" />
+  
+    <div role="search">
+      <label class="usa-sr-only" for="extended-search-field-small">Search</label>
+      <input class="usa-input usagov-search-autocomplete" id="extended-search-field-small" type="search" name="query" autocomplete="off">
+      <button class="usa-button primary-background-color" type="submit"><img src="/assets/img/usa-icons-bg/search--white.svg" class="usa-search__submit-icon" alt="Search" /></button>
+    </div>
+  </form>
+
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+  
+
+<section aria-label="Page Banner" class="usa-graphic-list usa-section sml-margin bg-gradient landing-page-banner" >
+    <div class="grid-container">
+        <div class="grid-row grid-gap">
+            <div class="tablet: grid-col">
+                
+                <h1 class="text-white font-sans-xl margin-top-0 margin-bottom-0">
+                    Page Not Found (404 Error)
+                </h1>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div id="main-content" class="usa-layout-docs usa-section">
+
+  <div class="grid-container">
+
+    <div class="grid-row grid-gap">
+      
+      <main class="usa-layout-docs__main">
+        <div class="usa-graphic-list">
+          <p>Section508.gov is a website about IT accessibility in the Federal government.</p>
+<p>We&rsquo;ve recently redesigned this website, and it looks like the page you want has moved. Sorry about that. Let&rsquo;s get you back on track! What were you trying to do?
+</p><ul>
+  <li><a href="/test">Learn about accessibility testing</a></li>
+  <li><a href="/training">Find IT Accessibility Training</a></li>
+  <li><a href="/manage/laws-and-policies">Learn about Section 508 policy</a></li>
+  <li><a href="/buy">Purchase accessible IT products or services</a></li>
+  <li><a href="/manage">Find information for IT Accessibility program managers</a></li>
+  <li><a href="/sell/vpat">Learn about VPAT&trade;</a></li>
+</ul>
+<p>If none of these options seem to fit, please try our site search, visit the <a href="">Section508.gov homepage</a>, or <a href="mailto:section.508@gsa.gov">email us with your question</a>.
+</p>
+<span class="text-bold">Reviewed/Updated:</span> July 2022
+
+        </div>
+        
+      </main>
+      
+    </div>
+  </div>
+</div>
+
+  <footer class="usa-footer__primary-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap padding-bottom-4">
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Government-wide Initiatives</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="https://www.gsa.gov/technology/government-it-initiatives/digital-strategy" target="_blank" onclick="return navigate(this)">Digital Strategy</a></li>
+          <li><a href="https://www.plainlanguage.gov/" target="_blank" onclick="return navigate(this)">Plain Language</a></li>
+          <li><a href="https://designsystem.digital.gov/" target="_blank" onclick="return navigate(this)">U.S. Web Design System</a></li>
+          <li><a href="https://www.cio.gov/about/members-and-leadership/accessibility-cop/" target="_blank" onclick="return navigate(this)">CIO Council Accessibility Community of Practice</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Organization</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/about-us/" aria-label="About Us in Organization" onclick="return navigate(this)">About Us</a></li>
+          <li><a aria-label="Contact Us details" href="/contact-us/" onclick="return navigate(this)">Contact Us</a></li>
+          <li><a href="/contributors/" aria-label="Section508.gov site Contributors" onclick="return navigate(this)">Contributors</a></li>
+          <li><a href="/manage/join-the-508-community/" onclick="return navigate(this)">Join the Community (Listserv)</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Tools</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/art/" aria-label="Accessibility Requirements Tool" onclick="return navigate(this)">ART</a></li>
+          <li><a href="/buy/solicitation-review-tool" aria-label="Solicitation Review Tool" onclick="return navigate(this)">SRT</a></li>
+          <li><a href="/content/guide-accessible-web-design-development" onclick="return navigate(this)">Developer Guide</a></li>
+          <li><a href="https://digitaldashboard.gov/" target="_blank" onclick="return navigate(this)">DigitalDashboard.gov</a></li>
+          <li><a href="https://analytics.usa.gov/" target="_blank" onclick="return navigate(this)">Analytics.usa.gov</a></li>
+        </ul>
+      </div>
+      <div class="desktop:grid-col-3 flex-1">
+        <p class="text-bold">Resources</p>
+        <ul class="add-list-reset line-height-sans-6">
+          <li><a href="/tools/glossary/" aria-label="Glossary for Section508" onclick="return navigate(this)">Glossary of Terms</a></li>
+          <li><a href="/tools/acronyms-abbreviations/" onclick="return navigate(this)">Acronyms & Abbreviations</a></li>          
+          <li><a href="/website-policies" onclick="return navigate(this)">Website Policies</a></li>
+          <li><a href="/tools/program-manager-listing/" onclick="return navigate(this)">Find Your Section 508 Program Manager</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="usa-identifier">
+  <section class="usa-identifier__section usa-identifier__section--masthead" aria-label="Agency identifier,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__logos">
+        <a href="https://www.gsa.gov" class="usa-identifier__logo" onclick="return navigate(this)"><img class="usa-identifier__logo-img" alt="General Services Administration Logo" src="/assets/images/seals-logos/gsa.jpg"/></a>
+      </div>
+      <div class="usa-identifier__identity">
+        <p class="usa-identifier__identity-domain">Section508.gov</p>
+        <p class="usa-identifier__identity-disclaimer">An official website of the <a href="https://www.gsa.gov/" onclick="return navigate(this)">General Services Administration</a></p>
+      </div>
+    </div>
+  </section>
+  <nav class="usa-identifier__section usa-identifier__section--required-links" aria-label="Important links,,">
+    <div class="usa-identifier__container">
+      <ul class="usa-identifier__required-links-list">
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/about-us" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">About GSA</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/website-information/accessibility-aids" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Accessibility statement</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/reference/freedom-of-information-act-foia" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">FOIA requests</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/reference/civil-rights-programs/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">No FEAR Act data</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsaig.gov/" class="usa-identifier__required-link usa-link" onclick="return navigate(this)" >Office of the Inspector General</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/reference/reports/budget-performance" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Performance reports</a></li>
+        <li class="usa-identifier__required-links-item"><a href="https://www.gsa.gov/website-information/website-policies" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Privacy policy</a></li>
+        <li class="usa-identifier__required-links-item"><a href="/website-policies/#reuse-and-copyright" class="usa-identifier__required-link usa-link" onclick="return navigate(this)">Reuse and Copyright</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="usa-identifier__section usa-identifier__section--usagov" aria-label="U.S. government information and services,,">
+    <div class="usa-identifier__container">
+      <div class="usa-identifier__usagov-description">Looking for U.S. government information and services?</div>
+      <a href="https://www.usa.gov/" class="usa-link" onclick="return navigate(this)">Visit USA.gov</a>
+    </div>
+  </section>
+</div>
+
+
+  <!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+
+<script id="_fed_an_ua_tag"
+        src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=GSA"></script>
+
+
+
+
+<script src="/assets/js/uswds.min.js?1742502785859035251"></script>
+<script src="/assets/js/app.js?1742502785859035251"></script>
+
+
+<script>
+  $(document).ready(function(){
+    // Check if the user already dismissed alert banner
+    if (window.localStorage.getItem('dismiss_alert')) {
+        $('#alert_banner').hide();
+    }
+
+    $("#dismiss_alert").click(function(){
+        // Save on LocalStorage
+        window.localStorage.setItem('dismiss_alert', true);
+        $('#alert_banner').hide();
+    }); 
+  });
+</script>
+
+</body>
+
 </html>
