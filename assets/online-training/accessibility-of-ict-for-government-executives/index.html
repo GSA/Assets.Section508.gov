@@ -37,30 +37,40 @@
 
           if (manifest['.css'] != null) {
             for (var idx = 0; idx < manifest['.css'].length; idx++) {
-              p.push(new Promise((resolve, reject) => {
-                var link = document.createElement('link')
-                link.onload = resolve
-                link.onerror = reject
-                link.rel = 'stylesheet'
-                link.href = 'lib/' + manifest['.css'][idx]
-                document.body.appendChild(link)
-              }))
+              if (isValidUrl(manifest['.css'][idx])) {
+                p.push(new Promise((resolve, reject) => {
+                  var link = document.createElement('link')
+                  link.onload = resolve
+                  link.onerror = reject
+                  link.rel = 'stylesheet'
+                  link.href = 'lib/' + manifest['.css'][idx]
+                  document.body.appendChild(link)
+                }))
+              }
             }
           }
 
           if (manifest['.js'] != null) {
             for (var idx = 0; idx < manifest['.js'].length; idx++) {
-              p.push(new Promise((resolve, reject) => {
-                var script = document.createElement('script')
-                script.onload = resolve
-                script.onerror = reject
-                script.src = 'lib/' + manifest['.js'][idx]
-                document.body.appendChild(script)
-              }))
+              if (isValidUrl(manifest['.js'][idx])) {
+                p.push(new Promise((resolve, reject) => {
+                  var script = document.createElement('script')
+                  script.onload = resolve
+                  script.onerror = reject
+                  script.src = 'lib/' + manifest['.js'][idx]
+                  document.body.appendChild(script)
+                }))
+              }
             }
           }
 
           return Promise.all(p)
+        }
+
+        function isValidUrl(url) {
+          // Ensure the URL is a relative path and does not contain dangerous characters
+          const pattern = /^\/?([a-zA-Z0-9_\-\/]+)\.(css|js)$/;
+          return pattern.test(url);
         }
 
         function deserialize(str) {
