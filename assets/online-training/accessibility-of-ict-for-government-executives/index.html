@@ -43,7 +43,7 @@
                   link.onload = resolve
                   link.onerror = reject
                   link.rel = 'stylesheet'
-                  link.setAttribute('href', 'lib/' + manifest['.css'][idx])
+                  link.setAttribute('href', 'lib/' + escapeUrl(manifest['.css'][idx]))
                   document.body.appendChild(link)
                 }))
               }
@@ -57,7 +57,7 @@
                   var script = document.createElement('script')
                   script.onload = resolve
                   script.onerror = reject
-                  script.setAttribute('src', 'lib/' + manifest['.js'][idx])
+                  script.setAttribute('src', 'lib/' + escapeUrl(manifest['.js'][idx]))
                   document.body.appendChild(script)
                 }))
               }
@@ -79,6 +79,15 @@
           } catch (e) {
             return false;
           }
+        }
+
+        function escapeUrl(url) {
+          return url.replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#x27;')
+                    .replace(/\//g, '&#x2F;');
         }
 
         function deserialize(str) {
