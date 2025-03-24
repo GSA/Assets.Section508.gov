@@ -43,7 +43,7 @@
                   link.onload = resolve
                   link.onerror = reject
                   link.rel = 'stylesheet'
-                  link.href = 'lib/' + manifest['.css'][idx]
+                  link.setAttribute('href', 'lib/' + manifest['.css'][idx])
                   document.body.appendChild(link)
                 }))
               }
@@ -57,7 +57,7 @@
                   var script = document.createElement('script')
                   script.onload = resolve
                   script.onerror = reject
-                  script.src = 'lib/' + manifest['.js'][idx]
+                  script.setAttribute('src', 'lib/' + manifest['.js'][idx])
                   document.body.appendChild(script)
                 }))
               }
@@ -70,7 +70,15 @@
         function isValidUrl(url) {
           // Ensure the URL is a relative path and does not contain dangerous characters
           const pattern = /^\/?([a-zA-Z0-9_\-\/]+)\.(css|js)$/;
-          return pattern.test(url);
+          if (!pattern.test(url)) {
+            return false;
+          }
+          try {
+            const parsedUrl = new URL(url, window.location.origin);
+            return parsedUrl.origin === window.location.origin;
+          } catch (e) {
+            return false;
+          }
         }
 
         function deserialize(str) {
