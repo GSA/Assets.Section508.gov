@@ -32,6 +32,14 @@
       (function() {
         const jsonp = {}
 
+        function sanitizeUrl(url) {
+          const pattern = /^[a-zA-Z0-9_\-\/.]+$/;
+          if (!pattern.test(url)) {
+            throw new Error('Invalid URL');
+          }
+          return url;
+        }
+
         function loadModule(manifest) {
           const p = []
 
@@ -42,7 +50,7 @@
                 link.onload = resolve
                 link.onerror = reject
                 link.rel = 'stylesheet'
-                link.href = 'lib/' + manifest['.css'][idx]
+                link.href = 'lib/' + sanitizeUrl(manifest['.css'][idx])
                 document.body.appendChild(link)
               }))
             }
@@ -54,7 +62,7 @@
                 var script = document.createElement('script')
                 script.onload = resolve
                 script.onerror = reject
-                script.src = 'lib/' + manifest['.js'][idx]
+                script.src = 'lib/' + sanitizeUrl(manifest['.js'][idx])
                 document.body.appendChild(script)
               }))
             }
