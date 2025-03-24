@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="lib/icomoon.css">
     <script type="text/javascript" src="lib/player-0.0.11.min.js"></script>
     <script type="text/javascript" src="lib/lzwcompress.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.4/purify.min.js"></script>
 
     <!-- Resize Hack -->
     <script type="text/javascript">
@@ -71,7 +72,8 @@
         }
 
         function __loadEntry() {
-          return loadModule(JSON.parse(document.getElementById('__ENTRY__').textContent))
+          const sanitizedContent = DOMPurify.sanitize(document.getElementById('__ENTRY__').textContent);
+          return loadModule(JSON.parse(sanitizedContent))
         }
 
         function __loadRemoteEntry(name) {
