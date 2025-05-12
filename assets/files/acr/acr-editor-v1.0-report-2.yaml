@@ -1,0 +1,2181 @@
+title: ACR Editor Accessibility Conformance Report
+product:
+  name: ACR Editor
+  version: '1.0'
+  description: >-
+    This web editor helps evaluators build Accessibility Conformance Reports in
+    the OpenACR format (opens in a new window or tab). It is designed to help
+    accessibility subject matter experts create machine-readable OpenACR
+    documents. Authors will be guided in creating an accessible report for the
+    digital product or service that they are documenting. Conformance for each
+    requirement can be documented as required to generate a Section 508 report.
+author:
+  name: 'Government-wide IT Accessibility Program, Office of Government-wide Policy'
+  company_name: General Services Administration
+  address: '1800 F St. NW, Washington DC 20405'
+  email: section.508@gsa.gov
+  phone: N/A
+  website: 'https://acreditor.section508.gov/'
+vendor:
+  name: 'Government-wide IT Accessibility Program, Office of Government-wide Policy'
+  company_name: General Services Administration
+  address: '1800 F St. NW, Washington DC 20405'
+  email: section.508@gsa.gov
+  phone: N/A
+  website: 'https://www.section508.gov/'
+report_date: 4/18/25
+last_modified_date: 5/12/2025
+version: 2
+notes: ''
+evaluation_methods_used: >-
+  ACR Editor is tested using Trusted Tester and User testing with assistive
+  technology against Section 508 standards. 
+legal_disclaimer: ''
+repository: 'https://www.section508.gov/acr-library/[filename]'
+feedback: 'https://github.com/GSA/openacr-editor/issues'
+license: CC-BY-4.0
+related_openacrs:
+  - url: ''
+    type: primary
+catalog: 2.4-edition-wcag-2.1-508-en
+chapters:
+  success_criteria_level_a:
+    notes: None
+    disabled: false
+    criteria:
+      - num: 1.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain prerecorded audio-only or
+                video-only materials.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: The website does not contain prerecorded synchronized media.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain prerecorded video content that
+                requires audio description or media alternative.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Information, structure, and relations conveyed on the website
+                are programmatically determined or available in text.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website content is presented in a meaningful and
+                programmatically determined sequence.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Instructions provided for understanding and operating content do
+                not rely solely on sensory characteristics.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >
+                The website does not use color as the only visual means of
+                conveying information. When color is used to convey information,
+                it is accompanied by a text or icon cue. 
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: The website does not contain audio that plays automatically.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The functionality of website content is operable through a
+                keyboard interface.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: The website does not include keyboard traps.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.1.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not include moving, blinking, scrolling, or
+                auto-updating information
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not include elements that move, blink, scroll,
+                or auto-update.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.3.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: The website does not contain flashing content.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website has a “Skip to main content” link, providing a
+                mechanism to jump to the first element of the main content.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: The webpages have titles that describe the topic or purpose.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: The website components receive focus in a meaningful order.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The purpose of each link can be determined from the link text
+                with its programmatically determined link context.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.1
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.2
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The language of each webpage can be programmatically determined
+                by the HTML lang attribute.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.2.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website components do not initiate a change of context when
+                receiving focus.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.2.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website components do not automatically cause a change of
+                context on user input
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                When an input error is automatically detected, the error is
+                identified and described in the text with multiple cues.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website input fields are provided with a label or an
+                instruction.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 4.1.1
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website uses semantically correct markup for interface
+                elements. 
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 4.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >
+                The website components have name, role, and value that can be
+                programmatically determined.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+  success_criteria_level_aa:
+    notes: None
+    disabled: false
+    criteria:
+      - num: 1.2.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: The website does not contain synchronized media.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.5
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain a prerecorded video that would
+                require an audio description.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website visual presentation of text has a contrast ratio of
+                at least 4:5:1.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website text can be resized without assistive technology up
+                to 200 percent without loss of content or functionality.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website uses text rather than images of text to convey
+                information.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.10
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.11
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.12
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.13
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website is primarily experienced in a sequential manner
+                where the webpage is the result of, or a step in, a process. A
+                navigation bar allows for moving between steps.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: All headings and labels describe the topic or purpose.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.7
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >
+                Focusable elements on the website have a visible keyboard focus
+                indicator. 
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The language of each content section is programmatically
+                determined.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.2.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website provides consistent and repeatable navigation
+                orders.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.2.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Components and elements that have the same functionality within
+                the website are identified consistently.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                Error messages are not used, as content is not required to be
+                completed in order to proceed.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.4
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website does not contain financial transactions. 
+                Information can be viewed, confirmed, and modified.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 4.1.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+  success_criteria_level_aaa:
+    notes: ''
+    disabled: true
+    criteria:
+      - num: 1.2.6
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain prerecorded synchronized media that
+                require sign language interpretation.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.7
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain prerecorded synchronized media that
+                require extended audio description.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.8
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain prerecorded synchronized media that
+                require media alternatives.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.2.9
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website does not contain live audio-only content that
+                requires alternatives for time-based media.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.3.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                Visual presentations of text have a contrast ratio of at least
+                7:1 and 4:5:1 for large text.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.7
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website does not contain prerecorded audio-content that
+                requires low or no background audio.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.8
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website has a mechanism available to support text
+                configuration. 
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 1.4.9
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                The website contains these:
+
+                Agency logos that include text as part, or all, of the logo
+
+                Agency logos and icons are provided with a text alternative when
+                appropriate
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.1.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: >-
+                All content is navigable by keyboard without requiring specific
+                timing.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.3
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.4
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.5
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.2.6
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.3.2
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website does not contain anything that flashes more than
+                three times in any one-second period.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.3.3
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.8
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.9
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.4.10
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >
+                All section headings are used to organize the content throughout
+                the website.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.5
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 2.5.6
+        components:
+          - name: web
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.3
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: >-
+                While the website uses plain language where possible, the ACR
+                Editor uses technical terms specific to the guidelines and
+                standards being evaluated. Where possible, plain language is
+                used.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.4
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: >-
+                Abbreviations are typically defined in their first appearance.
+                "ACR Editor" refers to Accessibility Conformance report which is
+                not defined on every page.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.5
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: >-
+                ,While the website uses plain language where possible, the ACR
+                Editor uses technical terms specific to the guidelines and
+                standards being evaluated. Where possible, plain language is
+                used.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.1.6
+        components:
+          - name: web
+            adherence:
+              level: not-evaluated
+              notes: >-
+                While the website uses plain language where possible, the ACR
+                Editor uses technical terms specific to the guidelines and
+                standards being evaluated.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.2.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: The website content gives full control of changes of context.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.5
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website provides context-sensitive help related to the
+                function currently being performed.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+      - num: 3.3.6
+        components:
+          - name: web
+            adherence:
+              level: supports
+              notes: >-
+                The website provides all three error prevention methods as
+                safeguards, depending on the context: Reversible, Checked, and
+                Confirmed.
+          - name: electronic-docs
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: software
+            adherence:
+              level: not-applicable
+              notes: ''
+          - name: authoring-tool
+            adherence:
+              level: not-applicable
+              notes: ''
+  functional_performance_criteria:
+    notes: None
+    disabled: false
+    criteria:
+      - num: '302.1'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                Users without vision are able to navigate and interact using
+                assistive technology such as screen readers.
+      - num: '302.2'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                Users with limited vision can interact and navigate using
+                assistive technology such as zoom.
+      - num: '302.3'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: Color is not used to as a singular method to convey information.
+      - num: '302.4'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                No sound is utilized at any point in the use of the ACR Editor
+                tool/website
+      - num: '302.5'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                No sound is utilized at any point in the use of the ACR Editor
+                tool/website
+      - num: '302.6'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                The website does not require any speech to be used for input,
+                control, or operation.
+      - num: '302.7'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                There are multiple methods for filling out the ACR Editor Tool,
+                allowing for users with limited manipulation to leverage any
+                number of methods to complete their task.
+      - num: '302.8'
+        components:
+          - name: none
+            adherence:
+              level: supports
+              notes: >-
+                There are multiple methods for filling out the ACR Editor Tool,
+                allowing for users with limited reach and strength to leverage
+                any number of methods to complete their task.
+      - num: '302.9'
+        components:
+          - name: none
+            adherence:
+              level: does-not-support
+              notes: >-
+                ACR Editor uses plain language when possible but users with
+                cognitive disabilities or limited language may find the more
+                technical requirements of this tool to be difficult to
+                understand and evaluate.
+
+
+                Exception: Users with cognitive disabilities or difficulties may
+                encounter a barrier at these steps, which could prevent or
+                impair them from continuing with identity authentication
+
+                Create a password while meeting its length and strength
+                requirements
+
+                Select a multi-factor authentication (MFA) while making an
+                informed decision on the level of security and usability
+  hardware:
+    notes: ACR Editor does not include any hardware
+    disabled: true
+    criteria:
+      - num: 402.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.2.5
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 402.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '402.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '402.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '403.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '404.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '405.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '406.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.3.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.6'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '407.7'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 407.8.3.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '408.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '408.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '409.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '410.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '411.1'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.5'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.6'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '412.7'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 412.8.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 413.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 413.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 414.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 414.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 415.1.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 415.1.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+  software:
+    notes: ' ACR Editor does not contain platform software that has access to platform accessibility services. For this reason, the chapter has been omitted.'
+    disabled: true
+    criteria:
+      - num: 502.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.3
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.4
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.5
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.6
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.7
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.8
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.9
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.10
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.11
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.12
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.13
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 502.3.14
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '502.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '503.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '503.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 503.4.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 503.4.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 504.2.1
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: 504.2.2
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '504.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+  support_documentation_and_services:
+    notes: >-
+      Support documentation, such as links offsite to the W3C definition and
+      explanation, are not owned or operated by the same entity.
+    disabled: true
+    criteria:
+      - num: '602.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '602.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '602.4'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '603.2'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
+      - num: '603.3'
+        components:
+          - name: none
+            adherence:
+              level: ''
+              notes: ''
